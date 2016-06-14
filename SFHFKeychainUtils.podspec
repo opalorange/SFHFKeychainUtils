@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.author = { 'Buzz Andersen' => 'buzz@scifihifi.com' }
   s.source = { :git => 'https://github.com/opalorange/SFHFKeychainUtils.git', :tag => 'v0.0.2' }
   s.homepage = "https://github.com/opalorange/SFHFKeychainUtils"
-  s.source_files = "."
+  s.source_files = "security"
   s.frameworks = "Security"
   s.requires_arc = true
   s.license =  { :type => 'MIT', :text => <<-LICENSE
