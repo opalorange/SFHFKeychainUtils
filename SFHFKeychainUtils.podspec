@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source_files = "security/*"
   s.frameworks = "Security"
   s.requires_arc = true
-  s.license =  { :type => 'MIT', :file => 'README.markdown' }
+  s.license =  { :type => 'MIT' }
 end
