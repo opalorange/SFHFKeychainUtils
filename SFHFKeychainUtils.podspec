@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/opalorange/SFHFKeychainUtils"
   s.source_files = "security/*"
   s.frameworks = "Security"
-  s.requires_arc = true
+  s.requires_arc = false
   s.license =  { :type => 'MIT' }
 end
